@@ -2,14 +2,15 @@
   "name": "discord-tutorial-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main":"/src/bot.js",
+  "scripts": { "start": "node bot.js"},
+    "test": "echo \"Error: no test specified\" && exit 1",
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
     "discord.js": "^13.7.0",
     "dotenv": "^16.0.1"
   }
